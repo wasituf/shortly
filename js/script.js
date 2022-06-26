@@ -1,4 +1,4 @@
-const apiToken = 'process.env.API_TOKEN'
+const apiToken = process.env.API_TOKEN
 let currentLink
 
 const shortLink = document.getElementById('short-link-1')
