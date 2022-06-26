@@ -61,3 +61,11 @@
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
+
+.extra-classes-1 {
+  @apply border-red text-red;
+}
+
+.extra-classes-2 {
+  @apply border-green-500 text-green-500;
+}
